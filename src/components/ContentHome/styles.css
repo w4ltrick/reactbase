@@ -1,0 +1,70 @@
+
+.containerContentHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.titleContentHome {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #221f2b;
+}
+
+
+.ContainerItensHome {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  background-color: white;
+  flex-direction: row; 
+  gap: 20px; 
+  margin-top: 150px;
+}
+
+.titleContentText {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #221f2b;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  gap: 10px;
+  width: 30%;
+}
+
+
+.titleContentText img {
+  width: 100px; 
+  height: 100px; 
+}
+
+
+.adicionarEntrada,
+.adicionarSaida {
+  text-decoration: none;
+  background-color: #a67202; 
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px; 
+  text-decoration-color: black;
+}
+
+.cor {
+  text-decoration: none;
+  color: black;
+}
+
+.ContainerItensHome p {
+  margin: 0;
+}

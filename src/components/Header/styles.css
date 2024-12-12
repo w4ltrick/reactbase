@@ -1,0 +1,31 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+.containerHeader {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(48, 48, 48);
+    padding: 0px 200px;
+  }
+  
+  .titleHeader {
+    font-size: large;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .containerItensHeader {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .linkHeader {
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 400;
+    color: white;
+  }
+  
